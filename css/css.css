@@ -99,6 +99,7 @@ html,body{
     color: deepskyblue;
     font-size: 0.4rem;
     margin-left: 0.4rem;
+    z-index:9;
 }
 .page3 img{
     width: 3.2rem;
@@ -106,6 +107,7 @@ html,body{
     position: absolute;
     bottom: 2rem;
     right: 1rem;
+    z-index:-9;
 }
 .page4{
     /*background: url("../img/bot1.gif") no-repeat;*/
