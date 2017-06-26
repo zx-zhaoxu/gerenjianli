@@ -108,7 +108,7 @@ html,body{
     width: 3.2rem;
     height: 3rem;
     position: absolute;
-    bottom: 2rem;
+    bottom: 1rem;
     right: 1rem;
     z-index:-9;
 }
@@ -153,6 +153,10 @@ html,body{
 .page4 a{
     cursor: pointer;
     color: black;
+    z-index:999;
+}
+.page4 .qw{
+    z-index:-999;
 }
 .page4 .as{
     color: black;
